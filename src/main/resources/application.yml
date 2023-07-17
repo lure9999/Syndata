@@ -1,0 +1,18 @@
+tlog:
+  enable-invoke-time-print: true
+
+mybatis-plus:
+  type-aliases-package: com.gas.entity      #配置别名包路径
+  mapper-locations: classpath:/mappers/*.xml  #添加mapper映射文件
+  configuration-properties:
+    slavesource: tsgas
+  global-config:
+    db-config:
+      id-type: assign_id
+  configuration:
+    map-underscore-to-camel-case: false
+knife4j:
+  enable: true
+spring:
+  profiles:
+    active: "test"

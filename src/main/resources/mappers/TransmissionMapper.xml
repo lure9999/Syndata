@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gas.dao.TransmissionDao">
+	<select id="dataTest" resultType="map">
+		select top 1 * from UserIdInfo;
+	</select>
+	<insert id="insertLocal">
+		insert into test3(name) values(#{UserId})
+	</insert>
+	<select id="selectPrimaryKey" resultType="string">
+
+		SELECT
+			col.name AS COLUMN_NAME
+		FROM
+			sys.indexes idx
+				JOIN sys.index_columns idxCol
+					 ON (idx.object_id = idxCol.object_id
+						 AND idx.index_id = idxCol.index_id
+						 AND idx.is_primary_key = 1)
+				JOIN sys.tables tab
+					 ON (idx.object_id = tab.object_id)
+				JOIN sys.columns col
+					 ON (idx.object_id = col.object_id
+						 AND idxCol.column_id = col.column_id) where tab.name = #{tableName}
+	</select>
+	<select id="selectColumns" resultType="string">
+		SELECT name from syscolumns Where ID=OBJECT_ID(#{tableName})
+	</select>
+	<select id="selectPrimaryTransLog" resultType="TransLog">
+		SELECT
+		SYS_CHANGE_VERSION,SYS_CHANGE_CREATION_VERSION,SYS_CHANGE_OPERATION,SYS_CHANGE_CONTEXT,${primaryKey} as ID
+		FROM
+			CHANGETABLE ( CHANGES [${tableName}], 0 )  as C
+	</select>
+	<select id="selectSecondaryTransLog" resultType="TransLog">
+		SELECT * FROM TransLog where TABLE_NAME = #{tableName}
+	</select>
+	<select id="selectDataBatch" resultType="map">
+		select * from ${tableName} where ${primaryKey} in
+		<foreach collection="result" item="i" open="(" close=")" separator=",">
+			#{i.ID}
+		</foreach>
+	</select>
+
+	<delete id="deleteDataBatch">
+		delete from ${tableName} where ${primaryKey} in
+		<foreach collection="result" item="i" open="(" close=")" separator=",">
+			#{i.ID}
+		</foreach>
+	</delete>
+
+	<delete id="deleteDataBatchMysql">
+		delete from ${tableName} where ${primaryKey} in
+		<foreach collection="result" item="i" open="(" close=")" separator=",">
+			#{i.ID}
+		</foreach>
+	</delete>
+
+
+
+
+	<insert id="insertDataBatchMysql">
+		insert into ${tableName}(
+		<foreach collection="columns" item="i" separator=",">
+			${i}
+		</foreach>) values 
+		<foreach collection="newData" item="item" separator=",">
+            <foreach collection="item" item="detailItem" index="index" open="("
+                     close=")" separator=",">
+                #{detailItem}
+            </foreach>
+        </foreach>
+	</insert>
+
+
+	<insert id="insertDataBatch">
+		set IDENTITY_INSERT ${tableName} on
+
+		insert into ${tableName}(
+		<foreach collection="columns" item="i" separator=",">
+			${i}
+		</foreach>) values
+		<foreach collection="newData" item="item" separator=",">
+			<foreach collection="item" item="detailItem" index="index" open="("
+					 close=")" separator=",">
+				#{detailItem}
+			</foreach>
+		</foreach>
+
+		set IDENTITY_INSERT ${tableName} off
+	</insert>
+
+
+
+
+	<delete id="deleteTransLog">
+		delete from TransLog where TABLE_NAME = #{tableName}
+	</delete>
+	<insert id="insertTransLogBatch">
+		insert into TransLog values
+		<foreach collection="list" item="i" separator=",">
+			(#{i.SYS_CHANGE_VERSION},#{i.SYS_CHANGE_CREATION_VERSION},#{i.SYS_CHANGE_OPERATION},#{i.SYS_CHANGE_COLUMNS},#{i.SYS_CHANGE_CONTEXT},#{i.ID},#{i.TABLE_NAME})
+		</foreach>
+	</insert>
+
+	<delete id="deleteDataBatch2">
+		delete from ${tableName} where ${primaryKey} in
+		<foreach collection="result" item="i" open="(" close=")" separator=",">
+			#{i.ID}
+		</foreach>
+	</delete>
+
+
+	<delete id="deleteDataBatch2Mysql">
+		delete from ${tableName} where ${primaryKey} in
+		<foreach collection="result" item="i" open="(" close=")" separator=",">
+			#{i.ID}
+		</foreach>
+	</delete>
+
+</mapper>

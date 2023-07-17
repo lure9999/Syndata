@@ -1,0 +1,68 @@
+server:
+  port: 8512
+  tomcat:
+    uri-encoding: UTF-8
+db:
+  driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+  url: 192.168.110.249
+  port: 3306
+  username: root
+  password: 123456
+  param: useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false&zeroDateTimeBehavior=convertToNull&zeroDateTimeBehavior=convertToNull
+  #需要同步的表名逗号隔开，必须先用sql开启同步功能
+  #ALTER DATABASE GdasServer SET CHANGE_TRACKING = ON (CHANGE_RETENTION = 2 DAYS, AUTO_CLEANUP = ON);
+  #ALTER TABLE  [GdasServer].[dbo].[Table_gdas_gprs_upload] ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON);
+  tables: sys_priceTypeInfo
+my:
+  swagger:
+    base-package: com.gas.controller;
+    title: "xxx"
+    description: "xxx"
+    version: "v1.0"
+    termsOfServiceUrl: "https://www.xxx.com"
+    contact-name: "xxx"
+    contact-url: "https://www.xxx.com"
+    contact-email: "xxx@163.com"
+
+spring:
+  profiles: test
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          type: com.zaxxer.hikari.HikariDataSource
+          driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+          url: jdbc:p6spy:sqlserver://192.168.110.20:1433;database=tsgas;encrypt=true;trustServerCertificate=true
+          username: sa
+          password: tsrq123456
+          hikari:
+            is-read-only: true # 读写库设置为true
+        slave:
+          type: com.zaxxer.hikari.HikariDataSource
+          driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+          url: jdbc:p6spy:sqlserver://192.168.110.246:1433;database=tsgas;encrypt=true;trustServerCertificate=true
+          username: sa
+          password: Test123456
+          hikari:
+            is-read-only: false # 读写库设置为true
+        customer:
+          type: com.zaxxer.hikari.HikariDataSource
+          driver-class-name: ${db.driver-class-name}
+          url: jdbc:p6spy:mysql://${db.url}:${db.port}/gas_rqjt_customer?${db.param}
+          username: ${db.username}
+          password: ${db.password}
+          hikari:
+            is-read-only: false # 读写库设置为true
+  redis:
+    database: 5
+    host: 192.168.110.251
+    port: 26373
+    password: 'xxxxxx'
+    timeout: 1000ms
+    lettuce:
+      pool:
+        max-active: 200
+        max-wait: -1ms
+        max-idle: 10
+        min-idle: 0

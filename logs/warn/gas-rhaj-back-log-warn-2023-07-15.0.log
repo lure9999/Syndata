@@ -1,0 +1,214 @@
+2023-07-15 14:55:08.479 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 14:55:09.311 [main] WARN  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [0] datasource,Please add your primary datasource or check your configuration
+2023-07-15 14:55:09.741 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-07-15 14:57:09.977 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 14:59:54.819 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 14:59:58.476 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'root'@'192.168.111.39' (using password: YES)
+2023-07-15 15:01:07.425 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 15:05:05.097 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 15:05:07.471 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.631 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.652 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.670 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.689 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.708 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.729 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.749 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.767 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:07.784 [gas_sikai connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:05:38.363 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Cannot open database "tsgas" requested by the login. The login failed. ClientConnectionId:fe1be008-0757-4972-8d3e-446645b154bc
+2023-07-15 15:10:55.918 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 15:11:01.089 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Cannot open database "tsgas" requested by the login. The login failed. ClientConnectionId:91051c64-05c5-4562-a5e0-f9e5ab0bfd63
+2023-07-15 15:13:02.385 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 15:13:04.680 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/baomidou/dynamic/datasource/spring/boot/autoconfigure/DynamicDataSourceAutoConfiguration.class]: Invocation of init method failed; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Cannot open database "tsgas" requested by the login. The login failed. ClientConnectionId:74c55ab4-fefb-4848-badc-8f25596069fb
+2023-07-15 15:24:33.864 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.gas.syndata]' package. Please check your configuration.
+2023-07-15 15:46:01.513 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.687 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.706 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.726 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.748 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.772 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.796 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.825 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.848 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:46:01.873 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.351 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.535 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.557 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.582 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.606 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.629 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.650 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.669 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.689 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:47:47.709 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.082 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.251 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.269 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.282 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.298 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.313 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.328 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.343 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.355 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:51:48.370 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.607 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.780 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.804 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.827 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.849 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.869 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.888 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.910 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.930 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:55:13.950 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.119 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.284 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.305 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.325 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.345 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.365 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.387 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.407 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.430 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 15:57:51.451 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.254 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.420 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.440 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.459 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.477 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.495 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.511 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.527 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.543 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:00:23.559 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.145 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.324 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.347 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.367 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.387 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.411 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.431 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.457 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.479 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:07:24.504 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:18.850 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.040 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.064 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.087 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.108 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.129 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.148 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.169 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.189 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:11:19.209 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.089 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.241 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.255 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.272 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.287 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.302 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.318 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.334 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.350 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:17:29.366 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.076 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.248 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.269 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.287 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.304 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.323 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.341 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.361 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.381 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:22:49.399 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.251 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.422 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.442 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.463 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.482 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.503 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.527 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.550 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.574 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:24:39.594 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.207 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.384 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.405 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.422 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.440 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.457 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.476 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.494 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.513 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:26:00.535 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.684 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.845 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.864 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.887 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.907 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.925 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.943 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.959 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.975 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:29:48.992 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.558 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.724 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.743 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.762 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.782 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.801 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.821 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.847 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.868 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:32:05.889 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.560 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.753 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.780 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.805 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.827 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.848 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.870 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.889 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.912 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:47:17.929 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:51:59.953 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.117 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.133 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.147 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.161 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.177 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.193 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.209 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.225 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 16:52:00.240 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:46.859 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.032 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.056 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.079 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.102 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.122 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.139 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.157 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.175 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:18:47.191 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.353 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.522 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.542 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.564 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.583 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.603 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.623 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.644 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.663 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:23:33.680 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.449 [main] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.610 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.628 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.647 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.670 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.695 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.713 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.731 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.750 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.
+2023-07-15 17:39:05.768 [master connection adder] WARN  com.microsoft.sqlserver.jdbc.internals.TDS.Channel - TLSv1 was negotiated. Please update server and client to use TLSv1.2 at minimum.

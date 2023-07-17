@@ -1,0 +1,1016 @@
+2023-07-15 14:55:07.808 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 6568 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 14:55:07.811 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 14:55:08.605 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:55:08.609 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3ad2cbc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:55:08.621 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:55:08.754 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-15 14:55:08.759 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-15 14:55:08.760 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 14:55:08.760 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 14:55:08.827 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 14:55:08.827 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 985 ms
+2023-07-15 14:55:09.223 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 14:55:09.734 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-15 14:55:09.791 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 14:55:09.792 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 14:55:09.792 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 14:55:09.796 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-07-15 14:55:09.797 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-15 14:55:09.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-07-15 14:55:09.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-07-15 14:55:09.881 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-15 14:57:09.373 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 10124 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 14:57:09.375 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 14:57:10.121 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:57:10.123 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e8a5e8af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:57:10.133 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:57:10.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 14:57:10.274 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 14:57:10.274 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 14:57:10.274 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 14:57:10.338 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 14:57:10.339 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 938 ms
+2023-07-15 14:57:10.684 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 14:57:10.831 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 14:57:11.340 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 14:57:11.341 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 14:57:11.361 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Start completed.
+2023-07-15 14:57:11.363 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 14:57:11.451 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 14:57:11.452 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 14:57:11.452 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_slave] success
+2023-07-15 14:57:11.452 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_sikai] success
+2023-07-15 14:57:11.453 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [gas_sikai]
+2023-07-15 14:57:11.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 14:57:11.842 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 14:57:11.981 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 2.92 seconds (JVM running for 3.47)
+2023-07-15 14:59:50.096 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 14:59:50.096 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 14:59:50.100 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 14:59:50.100 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Shutdown initiated...
+2023-07-15 14:59:50.104 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Shutdown completed.
+2023-07-15 14:59:50.104 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Shutdown initiated...
+2023-07-15 14:59:50.106 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Shutdown completed.
+2023-07-15 14:59:50.106 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 14:59:50.107 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 14:59:53.926 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 23056 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 14:59:53.929 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 14:59:54.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:59:55.002 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$67ded04e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:59:55.014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 14:59:55.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 14:59:55.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 14:59:55.188 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 14:59:55.188 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 14:59:55.302 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 14:59:55.303 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1333 ms
+2023-07-15 14:59:56.708 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 14:59:56.919 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 14:59:57.367 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 14:59:57.369 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 14:59:57.390 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Start completed.
+2023-07-15 14:59:57.391 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 14:59:58.478 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 14:59:58.483 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-15 14:59:58.491 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-15 15:01:06.555 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 10376 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:01:06.558 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:01:07.620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:01:07.624 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$cb0b438d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:01:07.644 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:01:08.595 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:01:08.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:01:08.612 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:01:08.613 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:01:08.758 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:01:08.759 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2150 ms
+2023-07-15 15:01:09.278 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:01:09.516 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 15:01:10.859 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 15:01:10.862 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 15:01:10.885 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Start completed.
+2023-07-15 15:01:10.886 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:01:10.960 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:01:10.961 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:01:10.962 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_slave] success
+2023-07-15 15:01:10.962 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_sikai] success
+2023-07-15 15:01:10.962 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [gas_sikai]
+2023-07-15 15:01:11.341 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:01:11.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:01:11.492 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 5.441 seconds (JVM running for 6.29)
+2023-07-15 15:05:00.664 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 15:05:00.664 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 15:05:00.669 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 15:05:00.669 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Shutdown initiated...
+2023-07-15 15:05:00.682 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Shutdown completed.
+2023-07-15 15:05:00.682 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Shutdown initiated...
+2023-07-15 15:05:00.686 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Shutdown completed.
+2023-07-15 15:05:00.686 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 15:05:00.687 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:05:04.201 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 23712 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:05:04.204 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:05:05.320 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:05:05.323 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d0a0d23e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:05:05.337 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:05:05.507 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:05:05.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:05:05.514 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:05:05.514 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:05:05.773 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:05:05.774 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1523 ms
+2023-07-15 15:05:06.847 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:05:07.112 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 15:05:07.509 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 15:05:07.511 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 15:05:38.363 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:05:38.366 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-15 15:05:38.374 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-15 15:10:54.176 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 4900 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:10:54.181 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:10:56.325 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:10:56.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$272b6e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:10:56.346 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:10:57.516 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:10:57.581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:10:57.583 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:10:57.583 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:10:57.974 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:10:57.975 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3723 ms
+2023-07-15 15:10:58.882 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:10:59.106 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 15:10:59.935 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 15:10:59.939 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 15:11:01.091 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:11:01.100 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-15 15:11:01.116 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-15 15:13:01.768 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 8648 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:13:01.770 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:13:02.532 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:13:02.535 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$6cac7c35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:13:02.545 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:13:02.679 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:13:02.684 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:13:02.684 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:13:02.684 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:13:02.748 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:13:02.748 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 947 ms
+2023-07-15 15:13:03.101 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:13:03.200 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 15:13:03.591 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 15:13:03.593 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 15:13:04.681 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:13:04.684 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-15 15:13:04.691 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-15 15:24:33.242 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 21516 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:24:33.244 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:24:34.008 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:24:34.011 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$51335af4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:24:34.021 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:24:34.155 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:24:34.161 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:24:34.162 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:24:34.162 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:24:34.224 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:24:34.224 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+2023-07-15 15:24:34.645 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:24:34.757 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Starting...
+2023-07-15 15:24:35.252 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Start completed.
+2023-07-15 15:24:35.254 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Starting...
+2023-07-15 15:24:35.309 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Start completed.
+2023-07-15 15:24:35.311 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:24:35.402 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:24:35.403 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:24:35.403 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_slave] success
+2023-07-15 15:24:35.403 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_sikai] success
+2023-07-15 15:24:35.403 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [gas_sikai]
+2023-07-15 15:24:35.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:24:35.841 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:24:36.010 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 3.07 seconds (JVM running for 3.634)
+2023-07-15 15:45:45.947 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 15:45:45.948 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 15:45:45.952 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 15:45:45.953 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Shutdown initiated...
+2023-07-15 15:45:45.956 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_slave - Shutdown completed.
+2023-07-15 15:45:45.956 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Shutdown initiated...
+2023-07-15 15:45:45.958 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_sikai - Shutdown completed.
+2023-07-15 15:45:45.959 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 15:45:45.959 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:45:59.094 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 11116 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:45:59.099 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:46:00.110 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:46:00.112 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e5ead7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:46:00.189 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:46:00.418 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:46:00.428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:46:00.428 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:46:00.429 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:46:00.507 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:46:00.508 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+2023-07-15 15:46:00.947 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:46:01.171 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 15:46:01.559 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 15:46:01.561 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 15:46:01.624 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 15:46:01.626 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:46:01.723 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:46:01.723 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 15:46:01.724 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:46:01.724 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 15:46:01.724 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 15:46:02.210 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 15:46:02.269 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:46:02.295 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:46:02.444 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 3.819 seconds (JVM running for 4.55)
+2023-07-15 15:47:38.415 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 15:47:38.416 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 15:47:38.416 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 15:47:38.419 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 15:47:38.420 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 15:47:38.423 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 15:47:38.424 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 15:47:38.425 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 15:47:38.425 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 15:47:38.426 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:47:43.664 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 22704 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:47:43.669 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:47:45.132 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:47:45.137 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$fa4213fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:47:45.237 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:47:45.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:47:45.538 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:47:45.539 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:47:45.539 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:47:46.163 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:47:46.164 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2353 ms
+2023-07-15 15:47:46.734 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:47:46.967 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 15:47:47.404 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 15:47:47.406 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 15:47:47.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 15:47:47.702 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:47:47.792 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:47:47.793 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 15:47:47.793 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:47:47.794 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 15:47:47.794 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 15:47:48.286 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 15:47:48.345 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:47:48.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:47:48.523 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 5.692 seconds (JVM running for 7.243)
+2023-07-15 15:51:37.297 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 15:51:37.299 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 15:51:37.299 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 15:51:37.305 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 15:51:37.305 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 15:51:37.311 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 15:51:37.311 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 15:51:37.314 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 15:51:37.315 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 15:51:37.315 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:51:44.317 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 24452 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:51:44.320 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:51:45.472 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:51:45.476 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$32ec0f38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:51:45.552 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:51:45.813 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:51:45.819 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:51:45.819 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:51:45.820 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:51:45.903 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:51:45.903 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1521 ms
+2023-07-15 15:51:47.200 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:51:47.575 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 15:51:48.119 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 15:51:48.121 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 15:51:49.105 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 15:51:49.109 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:51:49.184 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:51:49.184 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 15:51:49.184 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:51:49.185 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 15:51:49.185 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 15:51:49.600 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 15:51:49.647 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:51:49.661 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:51:49.810 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 6.036 seconds (JVM running for 7.853)
+2023-07-15 15:53:43.249 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 15:53:43.250 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 15:53:43.250 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 15:53:43.259 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 15:53:43.259 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 15:53:43.265 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 15:53:43.265 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 15:53:43.268 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 15:53:43.268 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 15:53:43.269 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:55:11.615 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 3080 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:55:11.617 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:55:12.384 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:55:12.388 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c6746583] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:55:12.454 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:55:12.668 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:55:12.675 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:55:12.676 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:55:12.676 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:55:12.746 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:55:12.746 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1099 ms
+2023-07-15 15:55:13.125 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:55:13.309 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 15:55:13.646 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 15:55:13.647 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 15:55:13.850 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 15:55:13.851 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:55:13.930 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:55:13.930 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 15:55:13.931 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:55:13.931 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 15:55:13.931 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 15:55:14.348 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 15:55:14.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:55:14.424 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:55:14.561 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 3.253 seconds (JVM running for 3.796)
+2023-07-15 15:55:14.562 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 15:55:14.563 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 15:55:14.563 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 15:55:17.159 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 15:55:17.159 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 15:55:17.168 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-07-15 15:57:42.997 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 15:57:42.997 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 15:57:42.997 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 15:57:43.000 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 15:57:43.000 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 15:57:43.003 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 15:57:43.004 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 15:57:43.005 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 15:57:43.006 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 15:57:43.007 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:57:47.552 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 24848 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 15:57:47.556 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 15:57:48.904 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:57:48.907 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e5ead7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:57:48.986 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 15:57:49.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 15:57:49.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:57:49.296 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 15:57:49.297 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 15:57:49.385 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 15:57:49.386 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1756 ms
+2023-07-15 15:57:50.508 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 15:57:50.765 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 15:57:51.160 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 15:57:51.161 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 15:57:51.218 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 15:57:51.220 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 15:57:51.306 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 15:57:51.306 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 15:57:51.307 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 15:57:51.307 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 15:57:51.307 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 15:57:51.838 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 15:57:51.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 15:57:51.914 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 15:57:52.098 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 5.195 seconds (JVM running for 7.348)
+2023-07-15 15:57:52.099 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 15:57:52.100 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 15:57:52.100 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 15:57:53.922 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 15:57:53.922 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 15:57:53.929 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-07-15 16:00:14.247 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:00:14.248 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:00:14.248 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:00:14.254 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:00:14.254 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:00:14.260 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:00:14.260 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:00:14.262 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:00:14.262 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:00:14.263 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:00:21.015 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 6640 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:00:21.021 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 16:00:22.065 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:00:22.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d6f8d123] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:00:22.121 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:00:22.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:00:22.317 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:00:22.318 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:00:22.318 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:00:22.388 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:00:22.389 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1300 ms
+2023-07-15 16:00:22.777 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:00:22.962 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:00:23.294 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:00:23.295 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:00:23.477 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:00:23.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:00:23.553 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:00:23.553 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:00:23.554 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:00:23.554 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:00:23.554 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:00:23.977 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:00:24.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:00:24.046 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:00:24.181 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 4.144 seconds (JVM running for 4.927)
+2023-07-15 16:00:24.182 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:00:24.182 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:00:24.183 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:00:26.310 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:00:26.310 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:00:26.317 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-07-15 16:07:09.892 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:07:09.893 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:07:09.893 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:07:09.896 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:07:09.896 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:07:09.899 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:07:09.899 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:07:09.901 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:07:09.901 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:07:09.901 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:07:19.541 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 9536 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:07:19.545 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 16:07:21.830 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:07:21.932 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d63ad0b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:07:22.465 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:07:22.885 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:07:22.894 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:07:22.895 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:07:22.895 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:07:23.002 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:07:23.002 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3313 ms
+2023-07-15 16:07:23.533 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:07:23.768 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:07:24.195 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:07:24.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:07:24.324 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:07:24.326 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:07:24.421 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:07:24.422 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:07:24.423 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:07:24.423 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:07:24.423 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:07:24.976 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:07:25.052 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:07:25.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:07:25.267 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 7.319 seconds (JVM running for 8.163)
+2023-07-15 16:07:25.269 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:07:25.269 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:07:25.269 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:07:36.745 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:07:36.745 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:07:36.751 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-07-15 16:11:06.955 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:11:06.956 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:11:06.956 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:11:06.961 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:11:06.962 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:11:06.980 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:11:06.980 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:11:06.983 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:11:06.983 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:11:06.983 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:11:15.263 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 13952 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:11:15.266 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 16:11:16.318 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:11:16.321 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e2c4584a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:11:16.397 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:11:16.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:11:16.699 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:11:16.699 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:11:16.700 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:11:16.812 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:11:16.812 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1499 ms
+2023-07-15 16:11:17.512 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:11:18.469 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:11:18.908 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:11:18.911 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:11:18.980 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:11:18.982 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:11:19.079 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:11:19.080 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:11:19.081 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:11:19.081 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:11:19.081 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:11:19.615 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:11:19.677 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:11:19.695 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:11:19.898 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 5.163 seconds (JVM running for 7.004)
+2023-07-15 16:11:19.900 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:11:19.900 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:11:19.901 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:11:21.443 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:11:21.443 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:11:21.449 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-07-15 16:17:20.221 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:17:20.222 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:17:20.223 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:17:20.227 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:17:20.227 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:17:20.232 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:17:20.232 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:17:20.235 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:17:20.235 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:17:20.236 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:17:26.216 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 21532 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:17:26.218 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 16:17:27.879 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:17:27.882 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c2e52053] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:17:27.943 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:17:28.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:17:28.147 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:17:28.147 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:17:28.148 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:17:28.214 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:17:28.214 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1929 ms
+2023-07-15 16:17:28.610 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:17:28.800 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:17:29.126 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:17:29.127 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:17:29.191 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:17:29.192 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:17:29.268 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:17:29.269 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:17:29.269 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:17:29.269 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:17:29.269 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:17:29.697 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:17:29.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:17:29.767 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:17:29.905 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 4.205 seconds (JVM running for 4.981)
+2023-07-15 16:17:29.907 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:17:29.907 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:17:29.907 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:17:31.460 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:17:31.460 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:17:31.468 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-07-15 16:22:38.146 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:22:38.147 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:22:38.147 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:22:38.150 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:22:38.151 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:22:38.155 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:22:38.155 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:22:38.157 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:22:38.157 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:22:38.158 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:22:45.550 [main] INFO  com.gas.syndata.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 7484 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:22:45.555 [main] INFO  com.gas.syndata.SynDataApplication - The following profiles are active: test
+2023-07-15 16:22:47.488 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:22:47.492 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ad9b8fc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:22:47.558 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:22:47.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:22:47.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:22:47.801 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:22:47.801 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:22:47.872 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:22:47.873 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2225 ms
+2023-07-15 16:22:48.410 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:22:48.733 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:22:49.119 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:22:49.121 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:22:49.186 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:22:49.188 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:22:49.273 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:22:49.274 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:22:49.274 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:22:49.274 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:22:49.275 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:22:49.774 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:22:49.841 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:22:49.855 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:22:50.025 [main] INFO  com.gas.syndata.SynDataApplication - Started SynDataApplication in 5.226 seconds (JVM running for 6.172)
+2023-07-15 16:22:50.026 [main] INFO  com.gas.syndata.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:22:50.027 [main] INFO  com.gas.syndata.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:22:50.027 [main] INFO  com.gas.syndata.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:22:52.413 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:22:52.413 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:22:52.419 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-07-15 16:24:19.762 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:24:19.762 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:24:19.762 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:24:19.767 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:24:19.767 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:24:19.772 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:24:19.772 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:24:19.775 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:24:19.775 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:24:19.775 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:24:37.186 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 24236 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:24:37.189 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 16:24:38.126 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:24:38.130 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ba3578e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:24:38.199 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:24:38.444 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:24:38.453 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:24:38.454 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:24:38.454 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:24:38.545 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:24:38.545 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1317 ms
+2023-07-15 16:24:38.733 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:24:39.296 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:24:39.298 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:24:39.360 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:24:39.362 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:24:39.441 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:24:39.441 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:24:39.442 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:24:39.442 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:24:39.442 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:24:40.181 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:24:40.310 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:24:40.344 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:24:40.358 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:24:40.474 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 3.644 seconds (JVM running for 4.329)
+2023-07-15 16:24:40.475 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:24:40.475 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:24:40.476 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:24:41.949 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:24:41.949 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:24:41.955 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-07-15 16:25:50.910 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:25:50.910 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:25:50.912 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:25:50.912 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:25:50.915 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:25:50.915 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:25:50.918 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:25:50.918 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:25:50.920 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:25:50.920 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:25:58.309 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 21720 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:25:58.312 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 16:25:59.297 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:25:59.300 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$20619770] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:25:59.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:25:59.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:25:59.569 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:25:59.570 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:25:59.570 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:25:59.642 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:25:59.643 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1281 ms
+2023-07-15 16:25:59.839 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:26:00.251 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:26:00.254 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:26:00.441 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:26:00.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:26:00.519 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:26:00.520 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:26:00.521 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:26:00.522 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:26:00.522 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:26:01.244 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:26:01.369 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:26:01.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:26:01.417 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:26:01.538 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 4.256 seconds (JVM running for 5.048)
+2023-07-15 16:26:01.540 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:26:01.540 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:26:01.540 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:26:03.442 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:26:03.442 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:26:03.447 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-07-15 16:29:42.260 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:29:42.261 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:29:42.263 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:29:42.263 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:29:42.266 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:29:42.266 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:29:42.269 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:29:42.269 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:29:42.270 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:29:42.270 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:29:45.586 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 2032 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:29:45.589 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 16:29:47.076 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:29:47.080 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8ed37b47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:29:47.148 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:29:47.393 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:29:47.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:29:47.402 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:29:47.403 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:29:47.495 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:29:47.495 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1860 ms
+2023-07-15 16:29:48.240 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:29:48.726 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:29:48.728 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:29:48.793 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:29:48.795 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:29:48.870 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:29:48.870 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:29:48.871 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:29:48.872 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:29:48.872 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:29:49.606 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:29:49.719 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:29:49.763 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:29:49.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:29:49.886 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 4.768 seconds (JVM running for 6.016)
+2023-07-15 16:29:49.887 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:29:49.888 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:29:49.888 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:29:53.430 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:29:53.430 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:29:53.440 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-07-15 16:31:59.254 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:31:59.255 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:31:59.257 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:31:59.257 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:31:59.260 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:31:59.261 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:31:59.264 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:31:59.265 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:31:59.266 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:31:59.266 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:32:02.309 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 26272 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:32:02.311 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 16:32:03.776 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:32:03.781 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$66e5d941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:32:03.885 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:32:04.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:32:04.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:32:04.244 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:32:04.244 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:32:04.328 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:32:04.329 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1973 ms
+2023-07-15 16:32:05.149 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:32:05.599 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:32:05.600 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:32:05.663 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:32:05.665 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:32:05.742 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:32:05.742 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:32:05.742 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:32:05.743 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:32:05.743 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:32:06.491 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:32:06.612 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:32:06.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:32:06.656 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:32:06.763 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 4.846 seconds (JVM running for 5.83)
+2023-07-15 16:32:06.764 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:32:06.764 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:32:06.764 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:32:10.302 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:32:10.302 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:32:10.311 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-07-15 16:47:09.923 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:47:09.925 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:47:09.926 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:47:09.926 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:47:09.932 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:47:09.932 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:47:09.936 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:47:09.937 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:47:09.939 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:47:09.939 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:47:14.278 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 25200 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:47:14.281 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 16:47:15.615 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:47:15.623 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$eb86532b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:47:15.692 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:47:15.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:47:15.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:47:15.953 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:47:15.953 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:47:16.034 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:47:16.034 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1693 ms
+2023-07-15 16:47:16.251 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:47:17.622 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:47:17.625 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:47:17.722 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:47:17.725 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:47:17.833 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:47:17.833 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:47:17.834 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:47:17.834 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:47:17.834 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:47:18.675 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:47:18.800 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:47:18.835 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:47:18.851 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:47:18.977 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 5.342 seconds (JVM running for 7.369)
+2023-07-15 16:47:18.979 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:47:18.979 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:47:18.979 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:47:24.530 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:47:24.530 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:47:24.539 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-07-15 16:51:52.416 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 16:51:52.417 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:51:52.419 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 16:51:52.419 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 16:51:52.425 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 16:51:52.426 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 16:51:52.429 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 16:51:52.430 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 16:51:52.432 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 16:51:52.432 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 16:51:55.801 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 26312 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 16:51:55.805 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 16:51:56.775 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:51:56.779 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$579803d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:51:56.842 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 16:51:57.093 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 16:51:57.100 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:51:57.101 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 16:51:57.102 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 16:51:57.201 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 16:51:57.201 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1358 ms
+2023-07-15 16:51:57.933 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 16:51:59.991 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 16:51:59.993 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 16:52:00.073 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 16:52:00.075 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 16:52:00.152 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 16:52:00.152 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 16:52:00.153 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 16:52:00.153 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 16:52:00.153 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 16:52:00.875 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 16:52:00.988 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 16:52:01.019 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 16:52:01.045 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 16:52:01.150 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 5.752 seconds (JVM running for 7.124)
+2023-07-15 16:52:01.151 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 16:52:01.151 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 16:52:01.151 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 16:52:05.753 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 16:52:05.753 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 16:52:05.762 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-07-15 17:18:37.591 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 17:18:37.592 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:18:37.594 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 17:18:37.595 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 17:18:37.599 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 17:18:37.599 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 17:18:37.603 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 17:18:37.603 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 17:18:37.606 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 17:18:37.606 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 17:18:44.931 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 5552 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 17:18:44.935 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 17:18:45.940 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:18:45.943 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d51eec50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:18:46.001 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:18:46.209 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 17:18:46.216 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 17:18:46.217 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 17:18:46.217 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 17:18:46.293 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 17:18:46.294 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+2023-07-15 17:18:46.490 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 17:18:46.898 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 17:18:46.900 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 17:18:46.969 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 17:18:46.971 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 17:18:47.051 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 17:18:47.051 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 17:18:47.052 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 17:18:47.052 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 17:18:47.052 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 17:18:47.790 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:18:47.905 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 17:18:47.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 17:18:47.951 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 17:18:48.073 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 4.291 seconds (JVM running for 5.023)
+2023-07-15 17:18:48.074 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 17:18:48.074 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 17:18:48.074 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 17:18:54.314 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 17:18:54.315 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 17:18:54.321 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-07-15 17:23:26.580 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 17:23:26.581 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:23:26.583 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 17:23:26.583 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 17:23:26.586 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 17:23:26.586 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 17:23:26.590 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 17:23:26.590 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 17:23:26.592 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 17:23:26.592 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 17:23:30.221 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 26144 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 17:23:30.224 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 17:23:31.340 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:23:31.344 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$226cf959] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:23:31.444 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:23:31.828 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 17:23:31.837 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 17:23:31.838 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 17:23:31.839 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 17:23:32.204 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 17:23:32.205 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1932 ms
+2023-07-15 17:23:32.980 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 17:23:33.393 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 17:23:33.395 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 17:23:33.448 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 17:23:33.449 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 17:23:33.532 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 17:23:33.533 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 17:23:33.533 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 17:23:33.534 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 17:23:33.534 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 17:23:34.268 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:23:34.381 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 17:23:34.414 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 17:23:34.440 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 17:23:34.549 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 4.738 seconds (JVM running for 6.368)
+2023-07-15 17:23:34.551 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 17:23:34.551 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 17:23:34.551 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 17:23:38.437 [http-nio-8512-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15 17:23:38.438 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-15 17:23:38.447 [http-nio-8512-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-07-15 17:38:51.458 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 17:38:51.459 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:38:51.461 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 17:38:51.462 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 17:38:51.465 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 17:38:51.465 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 17:38:51.469 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 17:38:51.469 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 17:38:51.471 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 17:38:51.471 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-07-15 17:39:03.492 [main] INFO  com.gas.SynDataApplication - Starting SynDataApplication on DESKTOP-CQSRTBV with PID 22024 (D:\SynData\target\classes started by admin in D:\SynData)
+2023-07-15 17:39:03.495 [main] INFO  com.gas.SynDataApplication - The following profiles are active: test
+2023-07-15 17:39:04.536 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:39:04.540 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e27c0f48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:39:04.602 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15 17:39:04.822 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8512 (http)
+2023-07-15 17:39:04.828 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8512"]
+2023-07-15 17:39:04.829 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-15 17:39:04.829 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-15 17:39:04.902 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-15 17:39:04.903 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1334 ms
+2023-07-15 17:39:05.097 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2023-07-15 17:39:05.488 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2023-07-15 17:39:05.489 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Starting...
+2023-07-15 17:39:05.551 [main] INFO  com.zaxxer.hikari.HikariDataSource - slave - Start completed.
+2023-07-15 17:39:05.553 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Starting...
+2023-07-15 17:39:05.639 [main] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Start completed.
+2023-07-15 17:39:05.639 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2023-07-15 17:39:05.640 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [gas_mysql] success
+2023-07-15 17:39:05.640 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-07-15 17:39:05.640 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2023-07-15 17:39:06.409 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:39:06.521 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-07-15 17:39:06.555 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8512"]
+2023-07-15 17:39:06.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8512 (http) with context path ''
+2023-07-15 17:39:06.699 [main] INFO  com.gas.SynDataApplication - Started SynDataApplication in 3.758 seconds (JVM running for 5.705)
+2023-07-15 17:39:06.700 [main] INFO  com.gas.SynDataApplication - 启动完成，访问地址如下：
+
+2023-07-15 17:39:06.700 [main] INFO  com.gas.SynDataApplication - Api文档访问地址如下：
+
+2023-07-15 17:39:06.701 [main] INFO  com.gas.SynDataApplication - http://localhost:8512/doc.html
+2023-07-15 17:40:24.960 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-07-15 17:40:24.961 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15 17:40:24.963 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-07-15 17:40:24.964 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown initiated...
+2023-07-15 17:40:24.972 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - slave - Shutdown completed.
+2023-07-15 17:40:24.972 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown initiated...
+2023-07-15 17:40:24.976 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - gas_mysql - Shutdown completed.
+2023-07-15 17:40:24.976 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2023-07-15 17:40:24.978 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2023-07-15 17:40:24.979 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
